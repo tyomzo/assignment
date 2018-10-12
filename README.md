@@ -1,5 +1,3 @@
-# General notes
-
 The following example dispays the transitive dependencies between letters of the alphabet. If A depends on B and B depends on C, then A also depends on C.
 
 If this is input:
