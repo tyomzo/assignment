@@ -1,4 +1,5 @@
-We ask to implement transitive dependency resolution algorithm.  
+# We ask to implement transitive dependency resolution algorithm
+
 The following example dispays the transitive dependencies between letters of the alphabet. If A depends on B and B depends on C, then A also depends on C.
 
 If this is input:
