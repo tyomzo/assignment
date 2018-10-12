@@ -22,16 +22,16 @@ D H
 
 ## Assessment
 
-..* Retrieve the inputs from the backend (implement C# controller that will generate random set of inputs)
-..* Display the inputs nicely in the frontend
-..* Calculate and display results in the frontend
+* Retrieve the inputs from the backend (implement C# controller that will generate random set of inputs)
+* Display the inputs nicely in the frontend
+* Calculate and display results in the frontend
 
 ## Criteria
 
-..* Code quality and structure - how easy to read and understand code
-..* Algorithm implementation
-..* Bugs
+* Code quality and structure - how easy to read and understand code
+* Algorithm implementation
+* Bugs
 
 ## Bonus
 
-..* Unit tests
+* Unit tests
