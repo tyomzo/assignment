@@ -13,15 +13,11 @@
   </ItemGroup>
 
   <Target Name="GulpDefaultTarger" AfterTargets="Build">
-    <Exec Command="gulp" />
+    <Exec Command="node_modules/.bin/gulp" />
   </Target>
 
   <Target Name="GulpCleanTarger" AfterTargets="Clean">
-    <Exec Command="gulp clean" />
-  </Target>
-
-  <Target Name="GulpWatchTarger" AfterTargets="Debug">
-    <Exec Command="gulp debug" />
+    <Exec Command="node_modules/.bin/gulp clean" />
   </Target>
 
 </Project>
