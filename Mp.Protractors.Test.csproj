@@ -19,5 +19,5 @@
   <Target Name="GulpCleanTarger" AfterTargets="Clean">
     <Exec Command="node_modules/.bin/gulp clean" />
   </Target>
-
+  
 </Project>
