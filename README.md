@@ -1,4 +1,4 @@
-# General notes
+# We ask to implement transitive dependency resolution algorithm
 
 The following example dispays the transitive dependencies between letters of the alphabet. If A depends on B and B depends on C, then A also depends on C.
 
@@ -49,7 +49,7 @@ D H
 * MsBuild will automatically restore NuGet packages. But you will have to restore npm package manually before first run application by running ```npm install``` command in terminal in project folder
 * Opening project in Visual Studio Code might require you to install C# extentions
 
-### Projecct structure
+### Project structure
 In order to save you some time we had added some bootstrapping into project.
 
 Entry point for JavaScript code is located in `Scripts/main.js`
